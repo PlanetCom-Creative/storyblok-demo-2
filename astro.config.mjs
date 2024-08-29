@@ -12,9 +12,11 @@ export default defineConfig({
       accessToken: env.STORYBLOK_TOKEN,
       components: {
         page: 'storyblok/Page',
+        config: 'storyblok/Config',
         feature: 'storyblok/Feature',
         grid: 'storyblok/Grid',
         teaser: 'storyblok/Teaser',
+        hero: 'storyblok/Hero'
       },
       apiOptions: {
         region: "ca",
